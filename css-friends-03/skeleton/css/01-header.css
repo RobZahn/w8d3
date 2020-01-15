@@ -47,3 +47,26 @@ body {
 .header-list > li:hover {
   background: #000;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content-sidebar {
+  width: 240px;
+  min-height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  background-color: yellow;
+}
+
+.content-main {
+  min-height: 200px;
+  width: 660px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  background-color: blue;
+}
